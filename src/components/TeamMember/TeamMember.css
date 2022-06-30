@@ -85,6 +85,28 @@ footer .stat {
   width: 33.33%;
 }
 
+.newButton {
+  padding:25px;
+  background: rgb(52, 102, 242);
+  border:none;
+  color: white;
+  font-size:2em;
+  border-radius: 8px 8px;
+  box-shadow: 0 5px 15px rgba(79, 82, 177, 0.35);
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+.newButton:hover {
+  background: rgb(48, 90, 206);
+}
+
+.newButton:active {
+  background-color: rgb(159, 175, 221);
+  padding:22px;
+}
+
 @media screen and (min-width: 640px) {
   .container {
     display: inline-flex;

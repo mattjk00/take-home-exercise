@@ -1,0 +1,37 @@
+.header-container {
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(52, 102, 242);
+    border:none;
+    color: white;
+    font-size:1.25em;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 5px 15px rgba(79, 82, 177, 0.35);
+}
+
+.header-title {
+    padding-right: 10px;
+}
+
+.sortBox {
+    display:inline-flex;
+    font-size: 0.3em;   
+}
+
+.sortLabel {
+    padding-right:1em;
+    font-size: 2em;
+}
+
+.dropdown {
+    background-color: white;
+    border:none;
+    border-radius: 8px;
+    
+}

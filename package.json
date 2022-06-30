@@ -9,7 +9,8 @@
     "react-dom": "18.1.0",
     "react-scripts": "5.0.1",
     "sequelize": "6.19.0",
-    "sqlite3": "^5.0.8"
+    "sqlite3": "^5.0.8",
+    "url": "^0.11.0"
   },
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
